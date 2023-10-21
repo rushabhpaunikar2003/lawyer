@@ -1,0 +1,41 @@
+
+body {
+    background-image: url('image.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* This will make the image cover the entire viewport */
+    background-attachment: fixed; /* This will make the background image stay fixed as you scroll */
+    background-position: center bottom;
+    text-align: center;
+    padding: 50px;
+}
+.button {
+    background-color: transparent;
+    border: 2px solid #000; /* Add a border for better visibility */
+    color: #000; /* Text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    font: bold;
+    font-weight: 600;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center the form on the page */
+}
+
+label {
+    margin-bottom: 5px;
+    background-color: transparent;
+    color: #000;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #000; 
+    color: #000;
+}
+
